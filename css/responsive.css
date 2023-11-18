@@ -88,14 +88,16 @@
 }
  @media screen and (max-width: 480px) {
 .banner-text {
-	padding-top: 45%;
+	padding-top: 65%;
 	text-align: center;
 }
 .banner-text h1 {
 	font-size: 21px;
+	color: rgb(255, 255, 255);
 }
 .banner-text p {
-	font-size: 13px;
+	font-size: 15px;
+	color: rgb(255, 255, 255);
 }
 .banner {
 	height: 30px!important;
