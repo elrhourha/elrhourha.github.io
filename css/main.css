@@ -357,6 +357,7 @@ ul li {
 	box-shadow: 0 0 0 1px #fff;
 	overflow: hidden;
 	position: relative;
+	background-color: #f8f8f8;
 }
 .work img {
 	width: 100%;
@@ -364,7 +365,7 @@ ul li {
 	aspect-ratio: 1 / 1;
 }
 .work .overlay {
-	background: rgba(232, 69, 69, 0.9);
+	background: #337ab782;
 	height: 100%;
 	left: 0;
 	opacity: 0;
