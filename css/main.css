@@ -97,14 +97,12 @@ ul li {
 	$Header
 ========================================================================== */
 #header {
-	position: fixed;
 	width: 100%;
-	z-index: 999;
 }
 #header .header-content {
 	margin: 0 auto;
 	max-width: 1170px;
-	padding: 40px 0;
+    padding: 24px 0;
 	width: 100%;
 	-moz-transition: padding 0.3s;
 	-o-transition: padding 0.3s;
@@ -293,20 +291,33 @@ ul li {
 	$Banner
 ========================================================================== */
 .banner {
-	background-image: url(../images/banner.jpg);
+	background-image: url(../images/background.jpg);
 	background-position: center top;
 	background-repeat: no-repeat;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	-webkit-background-size: cover;
 	background-size: cover;
-	min-height: 750px;
+    min-height: 550px;
+    height: auto;
+	display: flex;
+	justify-content: center;
+	padding-left: 50px;
+	padding-right: 50px;
 }
-.banner-inner-wrapper {
-	float: right;
+.banner-img {
+	max-height: 400px;
 }
-.banner-text {
-	padding-top: 45%;
+.banner-img-container {
+	align-self: flex-end;
+	display: flex;
+    justify-content: flex-start;
+}
+.banner-container {
+	height: 100%;
+    display: flex;
+	flex-wrap: wrap;
+	align-self: end;
 }
 .banner-text h1 {
 	color: #393939;
